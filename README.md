@@ -5,7 +5,7 @@ This project is made with the technologies like Docker, RHEL8 and Python3 under 
 This project deals with the competition platform in which 2 or more teams can participate on their local network and perform their activity or task on the platform known as container. This container is made through DOCKER commands. Once the competition or task gets over, the evaluator or the judge can access to the server of each participant’s container through DNAT.  Since all the containers are independent from each other, participants get the fair chance to compete without any intervention. And the judge from outside can evaluate and declare the best work.
 This TUI based platform is easy to use and handy for the participant as well as judge. They can easily interact through this. 
 
- 
+![alt img="1"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture.PNG)
 Where judging requires authentication before final evaluation while participate option just needs participants to compete.
 With the help of basic networking concepts like NAT, Multi-Tenant over the Docker makes this idea of competition platform viable and feasible. Hence the technologies used over this project are:
 1.	DOCKER
