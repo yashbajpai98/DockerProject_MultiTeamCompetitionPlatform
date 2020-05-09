@@ -18,21 +18,29 @@ Docker is used to build isolated containers over which a competition will be org
 <h2> Project Description</h2>
 <h3>PARTICIPANT SECTION:</h3>
 To participate, the user have to just give the Team ID and Team Name to compete. As soon the participant enters his details a container for his team is built with its Team Name. In this particular container only he has to perform his tasks.
+![alt img ="2"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture1.PNG)
+
 Hence on entering his details team’s container is made. This way we can make countless no of participants to participate.
  
+![alt img ="3"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture2.PNG)
 All the team details are stored inside a python list. This stored data is further used at the time of judging and evaluation. For the safety of the participant’s container data, its data is stored in a volume, which is mounted at the time of container building.
  
+![alt img ="4"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture3.PNG)
 The communication between the container and outside world can be made afterwards with the technologies like docker file etc. This will further improve our project accessibility and participant’s convenience and interaction.
 
 <h3>JUDGING SECTION:</h3>
 This section deals with the admin section for evaluation and environment management. This section requires authentication before entering. Here the judge can see every participants work and can also delete the existing containers and volumes attached to it.
+
+![alt img="5"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture4.PNG)
  
 If the password is not correct, the user will be denied entering this section. With the particular container’s IP Address, the evaluation can be made for his work. Once the remarks and marks are allotted, the rankings can be declared.
 After the rankings, the platform requires cleaning before the second competition which can be done by deleting all the existing containers and attached volumes.
 
 •	Detaching volumes and containers:
+![alt img="6"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture5.PNG)
  
 •	Team Details:
+![alt img ="8"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture7.PNG)
  
 At the end with the help of system IP and active port no., the evaluation can be made by judge. Hence these two things are critically important.
 
@@ -41,6 +49,8 @@ At the end with the help of system IP and active port no., the evaluation can be
 This platform can be used as many times as possible with over hundreds and thousands of participants.
 It is very fast, requires even less than a second to configure container’s settings including setting up of volumes.
 It is reliable and also backup the data of each container in a volume.
+
+![alt img="17"](https://raw.githubusercontent.com/yashbajpai98/DockerProject_MultiTeamCompetitionPlatform/master/docker%20images/Capture6.PNG)
 It is secure, as a proper measures for authentication is required from each user, without which he will not be able to operate.
 Basic idea behind this is the concept of “isolation” and “multitenancy”.
 This platform can be used to perform any kind of competitions like coding, web development, web Apps, etc. 
