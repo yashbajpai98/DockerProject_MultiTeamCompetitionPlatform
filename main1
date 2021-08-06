@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 import os
 import getpass
 
@@ -29,7 +29,7 @@ while True:
                 user=[]
                 volumeName = "myVolume_"+str(x)
                 os.system("docker volume create {0}".format(volumeName))
-                os.system("docker run -dit --name {0}  -v {1}:/var/www/html  -p {2}:80  centos".format(teamName, volumeName, x))
+                os.system("docker run -dit --name {0}  -v {1}:/var/www/html  -p {2}:80  httpd".format(teamName, volumeName, x))
 
                 #print(os.system("docker inspect --format='{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {0}".format(teamName)))
                 #print(str(containerIP))

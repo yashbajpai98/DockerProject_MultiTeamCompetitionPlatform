@@ -1,2 +1,2 @@
-gnome-terminal -- python3 main
+gnome-terminal -- python3 main1
 
